@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.lurencun.async-http-connection-1.0.3-with-src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/com.lurencun.async-http-connection-1.0.3-with-src.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
