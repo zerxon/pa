@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee">
+
+    <TextView
+        android:id="@+id/singup_logo"
+        android:text="注册帐号"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/signup_tel"
+        android:layout_below="@id/singup_logo"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:hint="手机号码"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_below="@id/signup_tel"
+        android:inputType="text"
+        android:hint="昵称"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:inputType="textPassword"
+        android:layout_below="@id/signup_name"
+        android:layout_marginTop="0dp"
+        android:hint="密码"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/signup_repassword"
+        android:inputType="textPassword"
+        android:layout_below="@id/signup_password"
+        android:layout_marginTop="10dp"
+        android:hint="再次密码"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/signup_submit"
+        android:layout_below="@id/signup_repassword"
+        android:text="注册"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout><!-- From: file:/E:/android/ProjectSpace/Pa/app/src/main/res/layout/activity_signup.xml -->

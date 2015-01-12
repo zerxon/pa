@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/room_thumb"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:src="@drawable/pic" />
+
+    <TextView
+        android:id="@+id/room_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:text="豪华房"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/room_thumb"
+        />
+
+    <TextView
+        android:id="@+id/room_price_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#999"
+        android:text="平日价："
+        android:textSize="13sp"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@id/room_title"
+        android:layout_below="@+id/room_title"
+        />
+
+    <TextView
+        android:id="@+id/room_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/room_price_blank"
+        android:layout_alignTop="@id/room_price_blank"
+        android:text="58元/天"
+        android:textSize="13sp"
+        android:textColor="@color/orange"
+        />
+
+    <TextView
+        android:id="@+id/room_other_price_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#999"
+        android:text="节假日价："
+        android:textSize="13sp"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@id/room_price_blank"
+        android:layout_below="@+id/room_price_blank"
+        />
+
+    <TextView
+        android:id="@+id/room_other_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/room_other_price_blank"
+        android:layout_alignTop="@id/room_other_price_blank"
+        android:text="58元/天"
+        android:textSize="13sp"
+        android:textColor="@color/orange"
+        />
+
+</RelativeLayout>

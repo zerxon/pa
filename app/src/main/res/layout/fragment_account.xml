@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eee"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="13dp"
+        style="@style/account_item_border" />
+
+    <TextView
+        android:id="@+id/account_change_profile"
+        android:text="修改资料"
+        style="@style/account_item" />
+
+    <TextView style="@style/account_item_border" />
+
+    <TextView
+        android:id="@+id/account_change_password"
+        android:text="修改密码"
+        style="@style/account_item" />
+
+    <TextView style="@style/account_item_border" />
+
+    <TextView
+        android:layout_marginTop="13dp"
+        style="@style/account_item_border" />
+
+    <TextView
+        android:id="@+id/account_sign_out"
+        android:text="退出"
+        android:textColor="#d80a0a"
+        style="@style/account_item" />
+
+    <TextView style="@style/account_item_border" />
+
+</LinearLayout><!-- From: file:/E:/android/ProjectSpace/Pa/app/src/main/res/layout/fragment_account.xml -->

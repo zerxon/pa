@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/home_list_item"
+    android:clickable="false" >
+
+    <ImageView
+        android:id="@+id/house_img"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/pic"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:id="@+id/house_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/house_img"
+        android:text="爱情公寓"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:id="@+id/house_contact_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/house_title"
+        android:layout_below="@id/house_title"
+        android:layout_marginTop="6dp"
+        android:textColor="#999"
+        android:textSize="13sp"
+        android:text="联系电话:"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:id="@+id/house_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/house_contact_blank"
+        android:layout_below="@id/house_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#999"
+        android:textSize="13sp"
+        android:text="18344502419"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:id="@+id/house_address_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/house_title"
+        android:layout_below="@id/house_contact_blank"
+        android:layout_marginTop="6dp"
+        android:textColor="#999"
+        android:textSize="13sp"
+        android:text="地址:"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:id="@+id/house_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/house_address_blank"
+        android:layout_below="@id/house_contact_blank"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#999"
+        android:textSize="13sp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="肇庆学院外街"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd"
+    >
+
+    <TextView
+        style="@style/detail_header_blank"
+        android:text="联系电话"
+        />
+
+    <TextView
+        style="@style/detail_header_item"
+        android:id="@+id/detail_hotel_tel"
+        android:text="18344502419"
+        />
+
+    <TextView
+        style="@style/detail_header_blank"
+        android:text="其他电话"
+        />
+
+    <TextView
+        style="@style/detail_header_item"
+        android:id="@+id/detail_hotel_other_tel"
+        android:text="692419"
+        />
+
+    <TextView
+        style="@style/detail_header_blank"
+        android:text="地址"
+        />
+    
+    <TextView
+        style="@style/detail_header_item"
+        android:id="@+id/detail_hotel_address"
+        android:text="肇庆学院大塘面村"
+        />
+
+    <TextView
+        style="@style/detail_header_blank"
+        android:text="公告"
+        />
+
+    <TextView
+        style="@style/detail_header_item"
+        android:id="@+id/detail_hotel_desc"
+        android:textColor="@color/orange"
+        android:text="联系方式 电话18025893984 基本信息 2013年开业2014年最后一次装修 客栈简介 公寓所处地理位置优越，环境舒适，周边设施完善，交通便利。"
+        />
+
+    <TextView
+        style="@style/detail_header_blank"
+        android:text="房间"
+        />
+
+</LinearLayout>

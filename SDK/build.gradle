@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+dependencies {
+    compile files('libs/com.alibaba.fastjson-v1.1.24.jar')
+    compile files('libs/com.lurencun.async-http-connection-1.0.3-with-src.jar')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

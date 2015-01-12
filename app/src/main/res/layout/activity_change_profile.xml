@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        style="@style/edit_text_style"
+        android:id="@+id/profile_tel"
+        android:layout_marginTop="15dp"
+        android:enabled="false"
+        android:hint="手机号码"
+        />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:id="@+id/profile_name"
+        android:hint="昵称"
+        />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:id="@+id/profile_full_name"
+        android:hint="真实姓名"
+        />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:id="@+id/profile_other_tel"
+        android:hint="其他电话"
+        />
+
+    <Button
+        android:id="@+id/profile_save"
+        android:layout_marginTop="10dp"
+        android:text="保存"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/E:/android/ProjectSpace/Pa/app/src/main/res/layout/activity_change_profile.xml -->
